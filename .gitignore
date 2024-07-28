@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CURDWithJson/.vs/CURDWithJson/FileContentIndex
+/CURDWithJson/.vs/CURDWithJson/v17
+/CURDWithJson/CURDWithJson/obj
+/CURDWithJson/CURDWithJson/Properties
+/CURDWithJson/DomainLayer/obj
+/CURDWithJson/ServiceLayer/obj
