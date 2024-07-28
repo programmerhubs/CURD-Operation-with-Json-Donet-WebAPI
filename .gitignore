@@ -8,3 +8,6 @@
 /CURDWithJson/CURDWithJson/Properties
 /CURDWithJson/DomainLayer/obj
 /CURDWithJson/ServiceLayer/obj
+/CURDWithJson/.vs/CURDWithJson/DesignTimeBuild
+/CURDWithJson/ServiceLayer/bin/Debug/net8.0
+/CURDWithJson/DomainLayer/bin/Debug/net8.0
