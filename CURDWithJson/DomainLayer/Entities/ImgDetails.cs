@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DomainLayer.Entities
 {
-    public  class Image
+    public  class ImgDetails
     {
         [Key]
         public int Id { get; set; }
