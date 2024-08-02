@@ -15,7 +15,7 @@ namespace CURDWithJson.Controllers
         {
             _jsonFileService = jsonFileService;
         }
-        [HttpGet]
+        [HttpGet("AllImages")]
         public IActionResult GetImages()
         {
             return Ok(_jsonFileService.ReadImage());
@@ -36,7 +36,7 @@ namespace CURDWithJson.Controllers
 
             }
         }
-        [HttpPut("{Id}")]
+        [HttpPut("UpdateImage/{Id}")]
         public IActionResult UpdateImage(int Id, [FromBody] ImgDetails image)
         {
             if (ModelState.IsValid)
@@ -64,7 +64,7 @@ namespace CURDWithJson.Controllers
             }
 
         }
-        [HttpDelete("{Id}")]
+        [HttpDelete("DeleteImage/{Id}")]
         public IActionResult DeleteImage(int Id)
         {
             if (ModelState.IsValid)
